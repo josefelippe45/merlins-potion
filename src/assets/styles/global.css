@@ -1,0 +1,43 @@
+:root {
+    /**variaveis de cores*/
+    --color-text-base: #0e0d0d;
+    --color-highlight-text: #e44f22;
+    --color-primary: #4f0e6d;
+    --color-background-grey: #9C98A6;
+    --color-background: #FFFFFF;
+    --color-text-button: #FFFFFF;
+    --color-footer-text: #cccccc;
+    font-size: 60%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, #root {
+    height: 100vh;
+}
+#root {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+body{
+    background: var(--color-background);
+}
+body, input, button{
+    font: 500 1.6rem Oswald;
+    color: var(--color-text-base);
+}
+.container {
+    /*ocupa 90% da largura a menos que passe de 700px*/
+    width: 90vw;
+    max-width: 700px;
+}
+
+/*quando estiver num disposito que possua largura acima de 700ppx*/
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}

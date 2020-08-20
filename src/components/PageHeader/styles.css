@@ -1,0 +1,122 @@
+.page-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-background);
+    width: 100%;
+}
+
+.page-header .header-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.drawer img {
+    max-width: 3rem;
+}
+
+.header-content {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    background: var(--color-background-grey);
+    text-align: center;
+}
+
+.header-content span {
+    color: var(--color-footer-text);
+    font: 1.6rem Droid Sans;
+}
+
+.cart-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart-icon span {
+    color: var(--color-footer-text)
+}
+
+strong {
+    color: var(--color-highlight-text)
+}
+
+/* .top-container  p:first-child {
+    color: var(--color-highlight-text);
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem
+}
+.top-container p {
+    color: var(--color-primary);
+    font-family: Droid Sans;
+} */
+
+/** SIDE DRAWER STYLES*/
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--color-background);
+    margin-top: -10px;
+    padding: 1.8rem;
+}
+
+.search-input {
+    align-items: center;
+    background: url(../../assets/images/icons/search.svg) no-repeat 0.1rem 0.1rem;
+    border-radius: 0.8rem;
+    padding-left: 3rem;
+    width: 80%;
+}
+
+.open-drawer {
+    cursor: pointer;
+}
+
+.close-image {
+    margin: 0 1.4rem;
+    cursor: pointer;
+}
+
+.group-items p {
+    margin-left: 8rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+    color: var(--color-background);
+    cursor: pointer
+}
+
+
+
+.nav-footer-text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.8rem;
+    padding-top: 3rem;
+
+}
+
+.nav-footer-text>span {
+    color: var(--color-background);
+    cursor: pointer
+}
+
+span {
+    color: var(--color-footer-text)
+}
+
+.nav-footer {
+    background: var(--color-background);
+    height: 100vh;
+}

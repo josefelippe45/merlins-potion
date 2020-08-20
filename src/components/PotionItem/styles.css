@@ -1,0 +1,21 @@
+.potion-container img {
+    width: 12rem;
+    height: 12rem;
+}
+
+.potion-container span {
+    color: var(--color-highlight-text)
+}
+
+.potion-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*distanciamento entre cada coluna*/
+    column-gap: 16px;
+    margin-top: 2rem
+}
+.content h1{
+    display: flex;
+    margin: 3rem 0 ;
+    justify-content: center;
+}

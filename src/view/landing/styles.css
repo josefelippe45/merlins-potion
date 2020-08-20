@@ -1,0 +1,13 @@
+#landing {
+    width: 100vw;
+    height: 100vh;
+    background: var(--color-background);
+}
+.potion-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    align-items: initial;
+}
