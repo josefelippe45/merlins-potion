@@ -1,6 +1,7 @@
 import React from 'react'
 import PageHeader from '../../components/PageHeader/index';
 import PotionItem from '../../components/PotionItem/index';
+import PageFooter from '../../components/PageFooter/index';
 import './styles.css';
 
 const Landing = () => {
@@ -13,7 +14,9 @@ const Landing = () => {
             <div className="potion-list">
                 <PotionItem />
             </div>
-
+            <div className="footer">
+                <PageFooter/>
+            </div>
         </div>
     );
 }

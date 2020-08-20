@@ -94,7 +94,11 @@ strong {
     margin-top: 1.4rem;
     margin-bottom: 1.4rem;
     color: var(--color-background);
-    cursor: pointer
+    cursor: pointer;
+    transition: 1s;
+}
+.group-items p:hover{
+    color:#36084b
 }
 
 

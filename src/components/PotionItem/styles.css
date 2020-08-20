@@ -19,3 +19,11 @@
     margin: 3rem 0 ;
     justify-content: center;
 }
+.single-potion{
+    transition: 1s;
+    cursor: pointer;
+}
+.single-potion img:hover{
+    width: 12.5rem;
+    height: 12.5rem;
+}

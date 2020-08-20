@@ -1,6 +1,5 @@
 import React from 'react';
 import { POTIONS } from '../../data/dummy-data';
-
 import './styles.css';
 
 const PotionItem = () => {
@@ -12,7 +11,7 @@ const PotionItem = () => {
                 {
                     POTIONS.map((data, key) => {
                         return (
-                            <div key={key}>
+                            <div className="single-potion" key={key}>
                                 <img src={data.image} alt={data.name} />
                                 <p>{data.name} - <span>${data.price}</span></p>
                             </div>
