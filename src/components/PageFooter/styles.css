@@ -31,12 +31,14 @@
     background: var(--color-background);
     display: flex;
     flex-direction: column;
-    margin: 0 4rem
+    margin: 0 4rem;
+    font-family: Droid Sans;
 }
 
 .text {
     margin-left: 2rem;
-    margin-top: 1.2rem
+    margin-top: 1.2rem;
+    
 }
 
 .sign-up {
@@ -53,44 +55,44 @@
     width: 32rem;
     border-radius: 0.8rem;
     padding-left: 0.5rem;
+    font-family: Droid Sans;
 }
-
-
 
 .copyright {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: Droid Sans;
 }
-.sign-up-text{
+
+.sign-up-text {
     font-style: italic;
 }
 
 @media(min-width: 700px) {
     #main-content {
-        
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-around;
     }
-    .left-cmp{
-        display:flex;
+    .left-cmp {
+        display: flex;
         flex-direction: column;
     }
     .alerts {
         display: flex;
         flex-direction: column;
-     }
-     .alerts span{
-         color: var(--color-highlight-text);
-         margin-left: 6rem;
-         cursor: pointer;
-         font-size: 1.8rem
-     }
-     .alerts span:hover{
+    }
+    .alerts span {
+        color: var(--color-highlight-text);
+        margin-left: 6rem;
+        cursor: pointer;
+        font-size: 1.8rem
+    }
+    .alerts span:hover {
         color: #ff3300;
     }
-     .submit-form{
-         margin-bottom: 10rem;
-     }
+    .submit-form {
+        margin-bottom: 10rem;
+    }
 }
