@@ -2,13 +2,22 @@
     width: 100vw;
     height: 100vh;
     background: var(--color-background);
+    display: flex;
+    flex-direction: column;
 }
 .potion-list{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-bottom: 3rem;
+    padding-bottom: 3rem
 }
 .header{
     align-items: initial;
+}
+
+.footer{
+    width:100%;
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
