@@ -15,8 +15,9 @@ const Landing = () => {
                 <PotionItem />
             </div>
             <div className="footer">
-                <PageFooter/>
+                <PageFooter />
             </div>
+
         </div>
     );
 }
