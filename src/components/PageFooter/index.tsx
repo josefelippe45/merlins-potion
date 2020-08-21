@@ -17,7 +17,7 @@ const Button = styled.button`
   `
 
 const PageFooter = () => {
-   
+
     return (
         <div id="main-content" className="content-footer">
             <div className="submit-form">
@@ -49,7 +49,7 @@ const PageFooter = () => {
                 </div>
 
                 <div className="social-media">
-                    <img src={facebook} alt="facebook" />
+                    <img src={facebook} alt="facebook"/>
                     <img src={twitter} alt="twitter" />
                     <img src={tumblr} alt="tumblr" />
                     <img src={pinterest} alt="pinterest" />
