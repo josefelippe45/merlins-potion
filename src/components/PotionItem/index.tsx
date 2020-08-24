@@ -7,7 +7,6 @@ const Button = styled.button`
   color: white;
   border-radius: 3px;
   border: 2px solid #e44f22;
-  margin: 0 1em;
   padding: 0.25em 1em;
   `
 const PotionItem = () => {
