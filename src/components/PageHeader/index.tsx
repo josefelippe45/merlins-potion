@@ -62,7 +62,7 @@ const PageHeader = () => {
                                     <hr></hr>
                                 </div>
                                 <div className="nav-footer-text">
-                                    <span>Sign In <span>or</span> Sign out</span>
+                                    <span>Sign In <span>or</span> Sign Up</span>
                                 </div>
                                 <div className="nav-footer"></div>
                             </div>
@@ -121,7 +121,7 @@ const PageHeader = () => {
                             </li>
                         </ul>
                         <div className="nav-footer-text">
-                            <span>Sign In <span>or</span> Sign out</span>
+                            <span>Sign In <span>or</span> Sign Up</span>
                         </div>
                     </div>
                 </nav>
