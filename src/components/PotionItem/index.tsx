@@ -7,7 +7,6 @@ const Button = styled.button`
   color: white;
   border-radius: 3px;
   border: 2px solid #e44f22;
-  margin: 0 1em;
   padding: 0.25em 1em;
   `
 const PotionItem = () => {
@@ -49,7 +48,10 @@ const PotionItem = () => {
                                 <h1><strong>Use/Effects</strong></h1>
                                 <p>{openModal.effect}</p>
                                 <h1><strong>Ingredients</strong></h1>
-                                <p >{openModal.ingredients.map((key) => { return (<p key={key}>{key}</p>) })}</p>
+                                <span className="ingredients" >{openModal.ingredients.map((key) => {
+                                    return (<p key={key}>{key}</p>)
+                                })}
+                                </span>
                                 <div className="price">
                                     <h1><strong>Price:</strong></h1>
                                     <span className="highlight">${openModal.price}</span>

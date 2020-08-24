@@ -70,7 +70,7 @@ const PageHeader = () => {
                     </div>
                     <img className="logo-image" src={logoImg} alt="Logo" />
                     <input type="text" className="search-input-big" placeholder="Search our stock" />
-                    <div className="display-text"><p>Free shipping <p>on orders over $50</p></p></div>
+                    <div className="display-text"><p>Free shipping on orders over $50</p></div>
                     <div className="cart-icon">
                         <img src={iconCart} alt="Icone Caldeirão" />
                         <span>Bag: <strong>1</strong></span>

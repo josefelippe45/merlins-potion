@@ -189,6 +189,7 @@ span {
         font-size: 1.6rem;
         font-style: italic;
         font-family: Droid Sans;
+        max-width: 150px;
     }
     .nav-item {
         display: flex;

@@ -69,6 +69,10 @@
     display: flex;
     margin-top: 1.4rem
 }
+.ingredients{
+    color:var(--color-text-base);
+    max-width: 100px
+}
 
 @media(min-width: 700px) {
     .potion-container {
